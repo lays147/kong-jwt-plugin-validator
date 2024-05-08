@@ -2,6 +2,8 @@
 
 A Kong Gateway Plugin written in Go to verify if a JWT Token from AzureAD is valid.
 
+> Based on the [Kong Go Plugin template](https://github.com/lays147/kongo-go-boilerplate)
+
 ## How to develop
 
 Fork it! :rocket:

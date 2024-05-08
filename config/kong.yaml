@@ -1,0 +1,22 @@
+_format_version: "3.0"
+_transform: false
+
+
+services:
+  - name: mock
+    tags:
+      - mock
+    url: https://httpbin.org
+    routes:
+      - name: mock
+        paths:
+          - /mock
+
+# This config enables the plugin globally
+plugins:
+  - name: azure-validator-plugin
+    config:
+      tenant_id: ""
+      client_id: ""
+    tags:
+      - azure-validator-plugin
